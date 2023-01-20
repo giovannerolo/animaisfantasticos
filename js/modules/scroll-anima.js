@@ -27,7 +27,7 @@ export default class ScrollAnima {
       if (window.pageYOffset > item.offset) {
         item.element.classList.add("ativo");
       } else if (item.element.classList.contains("ativo")) {
-        item.elementm.classList.remove("ativo");
+        item.element.classList.remove("ativo");
       }
     });
   }
